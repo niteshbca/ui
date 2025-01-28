@@ -6,7 +6,7 @@ const History = () => {
   useEffect(() => {
     const fetchSalesData = async () => {
       try {
-        const response = await fetch("http://13.233.98.76:5000/api/sales");
+        const response = await fetch("http://18.229.157.34:5000/api/sales");
         const data = await response.json();
         setSalesData(data);
       } catch (error) {
